@@ -4,6 +4,9 @@ pragma solidity >=0.4.0 <0.9.0;
 
 contract nordcoin_ico{
 
+    string public name = "Nordcoin";
+    string public symbol = "NORD";
+
     // Introducing total nordcoins available for sale
     uint public max_nordcoins = 1000000;
 
